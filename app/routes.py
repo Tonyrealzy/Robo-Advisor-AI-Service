@@ -146,4 +146,4 @@ class GeminiModels(Resource):
 @gemini_bp.route('/health')
 class HealthCheck(Resource):
     def get(self):
-        return {"status": "ok"}, 200
+        return {"status": "ok", "message": "Service loaded successfully"}, 200
