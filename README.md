@@ -1,10 +1,7 @@
 # Robo-Advisor AI Service
 
 ## Overview
-
 The robo-advisor provides personalized investment recommendations and portfolio management services to bank customers. Utilizing artificial intelligence and machine learning algorithms to analyze customer's risk tolerance, investment goals, and financial preferences. The robo-advisor then generates customized investment portfolios tailored to each customer's unique needs, optimizing returns while minimizing risk.
-
-This project consists of two main services:
 
 - **AI Service (Flask)**: A Gemini-powered AI advisor that provides investment recommendations based on user input. It's hosted on [https://robo-advisor-ai-service.onrender.com/api](https://robo-advisor-ai-service.onrender.com/api) with Swagger documentation on [https://robo-advisor-ai-service.onrender.com/api/swagger](https://robo-advisor-ai-service.onrender.com/api/swagger).
 
@@ -21,7 +18,6 @@ docker-compose up --build
 ```
 
 This will start:
-
 1. Flask AI service on [http://localhost:5000](http://localhost:5000)
 2. Swagger UI on [http://localhost:5000/api/swagger](http://localhost:5000/api/swagger)
 
