@@ -9,8 +9,7 @@ def create_app():
         "http://localhost:3000",     
         "http://127.0.0.1:3000",    
         "http://localhost:8080",     
-        "https://yourfrontenddomain.com",
-        "https://yourgobackenddomain.com"    
+        "https://robo-advisor-frontend.netlify.app",
     ]
 
     CORS(
